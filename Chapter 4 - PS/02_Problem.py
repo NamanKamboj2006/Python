@@ -1,0 +1,20 @@
+List = []
+
+L1 = int(input("Enter A NO: "))
+List.append(L1)
+L2 = int(input("Enter A NO: "))
+List.append(L2)
+L3 = int(input("Enter A NO: "))
+List.append(L3)
+L4 = int(input("Enter A NO: "))
+List.append(L4)
+L5 = int(input("Enter A NO: "))
+List.append(L5)
+L6 = int(input("Enter A NO: "))
+List.append(L6)
+print("=== Original List ===")
+print(List)
+
+print("=== Sorted List ===")
+List.sort()
+print(List)
